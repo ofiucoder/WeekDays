@@ -1,17 +1,16 @@
 package dev.ofiucoder.weekdays;
 
-import org.junit.jupiter.api.Assertions.assertEquals;
-import org.junit.jupiter.api.Assertions.assertFalse;
-import org.junit.jupiter.api.Assertions.assertThrows;
-import org.junit.jupiter.api.Assertions.assertTrue;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
 
-import static   
- org.junit.jupiter.api.Assertions.*;   
+import static  
+ org.junit.jupiter.api.Assertions.*; 
 
 public class HandlerWeekDaysTest {
     

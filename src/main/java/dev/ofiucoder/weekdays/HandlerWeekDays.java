@@ -20,16 +20,16 @@ public class HandlerWeekDays {
         this.days = days;
     }
 
- public void createList() {
-  days = new ArrayList<String>(); 
-  days.add("Lunes");
-  days.add("Martes");
-  days.add("Miércoles");
-  days.add("Jueves");
-  days.add("Viernes");
-  days.add("Sábado");
-  days.add("Domingo");
- }
+    public void createList() {
+        days = new ArrayList<String>();
+        days.add("Lunes");
+        days.add("Martes");
+        days.add("Miércoles");
+        days.add("Jueves");
+        days.add("Viernes");
+        days.add("Sábado");
+        days.add("Domingo");
+    }
 
     public int getNumberOfDays() {
         return days.size();
