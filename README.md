@@ -1,6 +1,6 @@
 
 
-´´´mermaid
+```mermaid
 ---
 title: WeekDay Class Diagram
 ---
@@ -42,7 +42,4 @@ classDiagram
         +sortDaysAlphabetically()
     }
 
-
-``` 
-
-´´´`````
+```
