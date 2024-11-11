@@ -52,8 +52,8 @@ public class HandlerWeekDaysTest {
     @Test
     public void testSortDaysAlphabetically() {
         handlerWeekDays.sortDaysAlphabetically();
-        assertEquals("Domingo", handlerWeekDays.getDay(6));
-        assertEquals("Lunes", handlerWeekDays.getDay(0));
+        assertEquals("Viernes", handlerWeekDays.getDay(6));
+        assertEquals("Domingo", handlerWeekDays.getDay(0));
     }
 
     @Test
@@ -61,8 +61,4 @@ public class HandlerWeekDaysTest {
         handlerWeekDays.clearDays();
         assertEquals(0, handlerWeekDays.getNumberOfDays());
     }
-
-
-
-
 }
